@@ -20,6 +20,7 @@ log.addHandler(handler)
 
 
 class Watchdog:
+    """Test"""
     path_DeviceManager  = "/home/pi/Schrodinger_Watchdog/watchdog_DeviceManager"
     path_XBoxController = "/home/pi/Schrodinger_Watchdog/watchdog_XBoxController"
 

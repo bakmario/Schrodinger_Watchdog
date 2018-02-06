@@ -52,6 +52,7 @@ class Watchdog:
         diff_XBoxController = now - modification_XBoxController
         diff_DeviceManager  = now - modification_DeviceManager
 
+
         log.debug("DeviceManager diff: " + str(diff_DeviceManager))
         log.debug("XBoxController diff: " + str(diff_XBoxController))
 
